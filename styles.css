@@ -1,0 +1,166 @@
+/*
+#AA0723
+#FFFFFF
+#000000
+#CEA12B
+*/
+
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+        padding: 20px 50px;
+    }
+
+    header {
+        padding: 20px 0;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    body {
+        padding: 20px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul {
+        padding: 0;
+        
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: normal;
+    color: #000000;
+}
+
+#slogan {
+    background: linear-gradient(300deg, #AA0723, #CEA12B,#FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+}
+
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(248, 242, 242, 0.229);
+    background: linear-gradient(300deg, #AA0723, #CEA12B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    background-color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    padding: 4px 6px;
+    background-color: #000000;
+    border-radius: 10px 200px / 120px;
+    text-shadow: 2px 2px 4px rgba(248, 242, 242, 0.349);
+
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #AA0723;
+}
+
+#contato {
+    text-decoration: none;
+    color: #CEA12B;
+}
+footer {
+    background-color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#autorais {
+    color: #CEA12B;
+}
+
+
+#temp{
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
